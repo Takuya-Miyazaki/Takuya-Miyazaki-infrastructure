@@ -1,19 +1,4 @@
-https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg
-https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/blob/main/assets/lucia-logo.svg
-<img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-</p>
-<img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
-</p>
+
 <svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGradient" x1="0" y1="0" x2="320" y2="80" gradientUnits="userSpaceOnUse">

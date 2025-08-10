@@ -33,6 +33,16 @@ We respect public commons and collaborative AI—but not extractive commercial m
 
 > “AI must not feed on trust without consent.”
 
+## 🛰️ Monitoring & Trust Policy
+
+- Audit Log: [docs/o3-monitoring.md](docs/o3-monitoring.md)
+- Machine Log: [docs/o3-monitoring.jsonl](docs/o3-monitoring.jsonl)
+- AI Usage Policy: [docs/trust-policy.md](docs/trust-policy.md)
+
+→ “o3-log = monitoring.”  
+Releases, DNS changes, and policy updates are automatically tracked for auditability and modular clarity.  
+AI scraping for commercial training is blocked.
+
 # O3 Monitoring Log
 
 This log is the canonical, public audit trail. “o3-log = monitoring.”

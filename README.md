@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/ci.yml?branch=main)](https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/actions)
-
+![CI](https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/actions/workflows/ci.yml/badge.svg)
 
 
 # lucia-group.uk.com DNS & SPF Infrastructure
@@ -30,7 +30,7 @@ v=spf1 include:_spf.lucia-group.uk.com -all
 
 ## ✅ 2. `LICENSE`（MIT + Apache 2.0）
 
-ファイルパス：`LICENSE`
+File Path：`LICENSE`
 
 ```txt
 MIT License
@@ -41,7 +41,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
 
-[省略せず全文貼付推奨：MIT全文 + Apache 2.0全文を連結]
+[Full text recommended: MIT full text + Apache 2.0 full text concatenated]
 
 
 ## o3-mini Observation Log  

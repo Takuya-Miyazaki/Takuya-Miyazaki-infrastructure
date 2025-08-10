@@ -1,3 +1,10 @@
+https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
+</p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
 </p>

@@ -24,3 +24,21 @@ This configuration enables:
 
 ```txt
 v=spf1 include:_spf.lucia-group.uk.com -all
+
+
+---
+
+## ✅ 2. `LICENSE`（MIT + Apache 2.0）
+
+ファイルパス：`LICENSE`
+
+```txt
+MIT License
+
+Copyright (c) 2025 Takuya Miyazaki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+
+[省略せず全文貼付推奨：MIT全文 + Apache 2.0全文を連結]

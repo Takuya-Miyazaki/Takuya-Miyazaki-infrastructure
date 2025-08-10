@@ -147,13 +147,35 @@ This configuration enables:
 
 ### Primary SPF Record (`lucia-group.uk.com`)
 
+# Monitoring logs (for humans)
+[📡 O3 Monitoring Log (Markdown)](docs/o3-monitoring.md)
+
+# Monitoring log (for machines)
+[🧮 O3 Machine Log (JSON Lines)](docs/o3-monitoring.jsonl)
+
+# AI Usage Restriction Policy
+[📑 Trust & Commercial Use Policy](docs/trust-policy.md)
+
+# Organism tag configuration (to be generated)
+[🧬 Bio-layer Tags & Philosophy](docs/bio-layer.md) ← ※こちらは次ステップで生成できます
+
+## Monitoring & Trustwork
+
+- Audit log: [docs/o3-monitoring.md](docs/o3-monitoring.md)
+- Machine-readable: [docs/o3-monitoring.jsonl](docs/o3-monitoring.jsonl)
+- AI usage policy: [docs/trust-policy.md](docs/trust-policy.md)
+- Bio-layer philosophy: [docs/bio-layer.md](docs/bio-layer.md)
+
+→ `o3-log = monitoring.`  
+Commercial AI scraping is blocked.  
+Tags reflect biological authorship, intent, and trust.
+
 ## 🛡️ Domain Verification
 
 The domain `luca-trustwork.eu.com` has been verified via [ICANN Lookup](https://lookup.icann.org/).  
 DNS records (A, MX, SPF) are active and resolvable.  
 SPF currently set to `-all` for anti-spam posture.  
 SSL to be provisioned via Cloudflare.
-
 ```txt
 v=spf1 include:_spf.lucia-group.uk.com -all
 

@@ -33,6 +33,63 @@ We respect public commons and collaborative AI—but not extractive commercial m
 
 > “AI must not feed on trust without consent.”
 
+# O3 Monitoring Log
+
+This log is the canonical, public audit trail. “o3-log = monitoring.”
+
+- Scope: domain, DNS, email auth (SPF/DMARC/DKIM), CI, releases, Cloudflare/Zero Trust, policy.
+- Properties: reversible, modular, human-readable + machine-parsable (see JSON lines).
+
+---
+
+## Index
+- 2025-08-10 — v0.1.0 release — Initial modular infrastructure baseline
+
+---
+
+## Entry — 2025-08-10T00:00:00Z (bootstrap)
+- Event: Repository bootstrap and baseline
+- Actor: system
+- Intent: Establish public monitoring and auditability
+- Artifacts:
+  - Tag: v0.1.0
+  - Domain: luca-trustwork.eu.com
+  - DNS: A=54.153.56.183, MX=null, SPF="v=spf1 -all"
+- Security posture:
+  - Email: disabled (SPF -all, null MX)
+  - TLS: to be provisioned via Cloudflare (Universal SSL)
+- Notes: Display and operational layers intentionally separated.
+
+# O3 Monitoring Log
+
+This log is the canonical, public audit trail. “o3-log = monitoring.”
+
+- Scope: domain, DNS, email auth (SPF/DMARC/DKIM), CI, releases, Cloudflare/Zero Trust, policy.
+- Properties: reversible, modular, human-readable + machine-parsable (see JSON lines).
+
+---
+
+## Index
+- 2025-08-10 — v0.1.0 release — Initial modular infrastructure baseline
+
+---
+
+## Entry — 2025-08-10T00:00:00Z (bootstrap)
+- Event: Repository bootstrap and baseline
+- Actor: system
+- Intent: Establish public monitoring and auditability
+- Artifacts:
+  - Tag: v0.1.0
+  - Domain: luca-trustwork.eu.com
+  - DNS: A=54.153.56.183, MX=null, SPF="v=spf1 -all"
+- Security posture:
+  - Email: disabled (SPF -all, null MX)
+  - TLS: to be provisioned via Cloudflare (Universal SSL)
+- Notes: Display and operational layers intentionally separated.
+
+---
+
+
 
 ## 🌐 Domain Trust Configuration
 
@@ -152,4 +209,6 @@ This infrastructure was designed and observed using the **o3-mini** framework.
 It emphasizes modularity, auditability, and strategic ambiguity in DNS and SPF configuration.
 
 → [Observation Log](docs/o3-mini-log.md)
+
+Create file: docs/o3-monitoring.jsonl
 

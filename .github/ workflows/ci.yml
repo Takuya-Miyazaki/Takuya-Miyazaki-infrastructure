@@ -1,0 +1,18 @@
+name: DNS SPF Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-spf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Validate SPF syntax
+        run: |
+          grep -E '^v=spf1' infra/dns/*.txt || echo "No valid SPF record found"

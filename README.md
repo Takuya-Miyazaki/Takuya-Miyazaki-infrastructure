@@ -1,4 +1,6 @@
 https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg
+https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/blob/main/assets/lucia-logo.svg
+<img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/main/assets/lucia-logo.svg" alt="LuCIA Logo" width="320"/>
 </p>

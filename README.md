@@ -8,6 +8,18 @@
 
 This repository documents the modular DNS and SPF configuration for `lucia-group.uk.com`, designed to support operational sovereignty, auditability, and scalable email infrastructure for responsible AI deployment.
 
+## 🌐 Domain Trust Configuration
+
+The domain `luca-trustwork.eu.com` is now routed via Cloudflare, enabling:
+
+- Universal SSL
+- CDN acceleration
+- Modular DNS control
+- AI bot traffic governance via robots.txt and TLS policies
+
+→ This setup reflects our commitment to modular sovereignty and public-facing trustwork.
+
+
 ## Overview
 
 This configuration enables:

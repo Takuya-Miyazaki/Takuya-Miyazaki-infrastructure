@@ -115,6 +115,13 @@ The domain `luca-trustwork.eu.com` is now routed via Cloudflare, enabling:
 
 → This setup reflects our commitment to modular sovereignty and public-facing trustwork.
 
+## O3 Monitoring
+
+- Public audit trail: [docs/o3-monitoring.md](docs/o3-monitoring.md)
+- Machine-readable: [docs/o3-monitoring.jsonl](docs/o3-monitoring.jsonl)
+- Policy: [docs/trust-policy.md](docs/trust-policy.md)
+
+“o3-log = monitoring.” Releases and infra/policy changes are auto-logged for transparency and reversibility.
 
 ## Overview
 

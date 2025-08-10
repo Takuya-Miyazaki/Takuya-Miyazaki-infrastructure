@@ -1,0 +1,55 @@
+name: o3-log on infra change
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'infra/**'
+      - 'docs/trust-policy.md'
+      - 'robots.txt'
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  append-o3-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          ACTOR="${{ github.actor }}"
+          COMMIT="${{ github.sha }}"
+          FILES=$(git show --name-only --pretty="" "${COMMIT}" | tr '\n' ',' | sed 's/,$//')
+          SUMMARY=$(git log -1 --pretty=format:"%s")
+
+          {
+            echo ""
+            echo "---"
+            echo "## Entry — ${TS} (change)"
+            echo "- Event: Infra/Policy change"
+            echo "- Actor: ${ACTOR}"
+            echo "- Commit: ${COMMIT}"
+            echo "- Files: ${FILES}"
+            echo "- Summary: ${SUMMARY}"
+          } >> docs/o3-monitoring.md
+
+          mkdir -p docs
+          echo "{\"ts\":\"${TS}\",\"event\":\"change\",\"actor\":\"${ACTOR}\",\"commit\":\"${COMMIT}\",\"files\":\"${FILES}\",\"summary\":\"${SUMMARY}\"}" >> docs/o3-monitoring.jsonl
+
+      - name: Commit and push
+        run: |
+          git config user.name "o3-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/o3-monitoring.md docs/o3-monitoring.jsonl
+          if ! git diff --cached --quiet; then
+            git commit -m "o3-log: append infra/policy change entry"
+            git push
+          else
+            echo "No changes to commit."
+          fi

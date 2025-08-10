@@ -8,6 +8,32 @@
 
 This repository documents the modular DNS and SPF configuration for `lucia-group.uk.com`, designed to support operational sovereignty, auditability, and scalable email infrastructure for responsible AI deployment.
 
+
+## 📡 Domain Usage Declaration
+
+The domain `luca-trustwork.eu.com` is partially or fully dedicated to AI-generated content and AI infrastructure.
+
+### ❌ Commercial Use Prohibited
+
+- Unauthorized training of commercial AI models using content hosted under this domain is strictly prohibited.
+- Crawlers identified as AI model trainers (e.g. GPTBot, Google-Extended, ClaudeBot) are actively blocked.
+- Redistribution, monetization, or rehosting of this domain’s materials without written consent is not allowed.
+
+### 🔒 Trust-First Identity
+
+This domain embodies a modular trustwork architecture:
+- Display and operational layers are intentionally separated.
+- Content may represent provisional identities, abstract agents, or synthetic authorship.
+- Any attempt to repurpose this content commercially violates the intent of its authorship.
+
+### ⚖️ Legal & Ethical Notice
+
+Violation of this usage policy may result in IP blocking, model poisoning strategies, or legal escalations.  
+We respect public commons and collaborative AI—but not extractive commercial misuse.
+
+> “AI must not feed on trust without consent.”
+
+
 ## 🌐 Domain Trust Configuration
 
 The domain `luca-trustwork.eu.com` is now routed via Cloudflare, enabling:

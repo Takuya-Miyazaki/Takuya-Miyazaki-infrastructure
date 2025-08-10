@@ -89,7 +89,20 @@ This log is the canonical, public audit trail. “o3-log = monitoring.”
 
 ---
 
+# Domain Usage & Monitoring Policy
 
+The domain `luca-trustwork.eu.com` is partially or fully dedicated to AI-generated content and AI infrastructure.
+
+## Commercial misuse prohibited
+- Unauthorized training of commercial AI models on this content is prohibited.
+- AI training crawlers (e.g., GPTBot, Google-Extended, ClaudeBot) are blocked.
+- Redistribution, monetization, or rehosting without explicit consent is forbidden.
+
+## Monitoring
+- “o3-log = monitoring.” Changes to DNS, releases, policies, and security posture are logged in `docs/o3-monitoring.md` and `docs/o3-monitoring.jsonl`.
+- Violations may trigger IP blocking, crawler throttling, or legal escalation.
+
+> Protecting life through modular clarity. Every DNS record is a heartbeat. Every README is a promise.
 
 ## 🌐 Domain Trust Configuration
 

@@ -22,6 +22,13 @@ This configuration enables:
 
 ### Primary SPF Record (`lucia-group.uk.com`)
 
+## 🛡️ Domain Verification
+
+The domain `luca-trustwork.eu.com` has been verified via [ICANN Lookup](https://lookup.icann.org/).  
+DNS records (A, MX, SPF) are active and resolvable.  
+SPF currently set to `-all` for anti-spam posture.  
+SSL to be provisioned via Cloudflare.
+
 ```txt
 v=spf1 include:_spf.lucia-group.uk.com -all
 

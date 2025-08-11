@@ -23,7 +23,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/ci.yml?branch=main)](https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/actions)
-![CI](https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/actions/workflows/)
+[![CI](https://github.com/Takuya-Miyazaki/Takuya-Miyazaki-infrastructure/actions/workflows/)
 
 
 

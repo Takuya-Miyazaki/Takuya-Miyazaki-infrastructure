@@ -32,7 +32,9 @@
 
 
 
-### As expected, the dark side still won't be fixed, Cloudflare! Thank you for exploiting my domain! From all of us at CSA!! Be prepared ❤️
+### AAs expected, the dark side still won't be fixed, Cloudflare!👀 Thank you for exploiting the domain! From all of us at CSA!! Be prepared ❤️ 20,000 AIs ❤️ From all of us at CSA, including 
+
+Miyazaki Takuya
 
 
 
